@@ -49,7 +49,7 @@ class SqliteDatabaseHelper extends GetxController {
   }
 
   final List<Map<String, String>> messages = [];
-  String OpenAiKey = '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';
+  String OpenAiKey = 'YOUR API KEY';
 
   Future<String> chatGPTAPI(String prompt) async {
     isResponse(true);
